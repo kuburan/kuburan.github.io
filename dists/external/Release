@@ -1,0 +1,8 @@
+Codename: termux
+Version: 1
+Architectures: aarch64 all
+Description: Extra repository
+Suite: termux
+
+extra/binary-aarch64/Packages
+extras/binary-all/Packages
