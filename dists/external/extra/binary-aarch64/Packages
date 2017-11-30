@@ -1,1 +1,10 @@
-# currently empty
+Package: crackle
+Architecture: aarch64
+Version: 0.1
+Section: utils
+Maintainer: Kuburan_0day @kuburan
+Filename: extra/binary-aarch64/crackle_0.1_aarch64.deb
+Installed-Size: 131 kB
+Depends: libpcap
+Homepage: http://lacklustre.net/projects/crackle/
+Description: crackle cracks BLE Encryption (AKA Bluetooth Smart).
