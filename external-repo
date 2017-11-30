@@ -2,15 +2,19 @@
 # Script untuk memasukkan external repo
 #
 # install beberapa tools pendukung
-apt-get install -y coreutils apt-transport-https wget
+apt-get install -y gnupg coreutils apt-transport-https wget
 
 # buat folder source.list yg baru
-mkdir /data/data/com.termux/files/usr/etc/apt/sources.list.d
+mkdir -p /data/data/com.termux/files/usr/etc/apt/sources.list.d
 
 # masukkan external repo
 echo "deb [trusted=yes] https://kuburan.github.io/ external extra" > /data/data/com.termux/files/usr/etc/apt/sources.list.d/kuburan.list
 
-# Update
+# Download signing key from
+wget https://kuburan.github.io/my.gpg
+apt-key add my.gpg
+
+# update
 apt-get update
 
 echo
