@@ -1,8 +1,0 @@
-Codename: external
-Version: 1
-Architectures: aarch64 all
-Description: Extra repository
-Suite: external
-
-extra/binary-aarch64/Packages
-extras/binary-all/Packages
