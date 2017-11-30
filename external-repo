@@ -8,7 +8,7 @@ apt-get install -y gnupg coreutils apt-transport-https wget
 mkdir -p /data/data/com.termux/files/usr/etc/apt/sources.list.d
 
 # masukkan external repo
-echo "deb [trusted=yes] https://kuburan.github.io/ external extra" > /data/data/com.termux/files/usr/etc/apt/sources.list.d/kuburan.list
+echo "deb [trusted=yes] https://kuburan.github.io/external/ termux extras" > /data/data/com.termux/files/usr/etc/apt/sources.list.d/kuburan.list
 
 # Download signing key
 wget https://kuburan.github.io/my.gpg
