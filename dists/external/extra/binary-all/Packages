@@ -5,5 +5,5 @@ Maintainer: kuburan_0day @kuburan
 Installed-Size: 3072 B
 Depends: perl, openssl
 Homepage: https://cirt.net/Nikto2
-Filename: extra/all/nikto_2.1.6_all.deb
+Filename: extra/binary-all/nikto_2.1.6_all.deb
 Description: Nikto web server scanner
