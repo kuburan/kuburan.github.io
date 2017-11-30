@@ -1,0 +1,17 @@
+#!/data/data/com.termux/files/usr/bin/sh
+# Script untuk memasukkan external repo
+#
+# install beberapa tools pendukung
+apt-get install -y coreutils apt-transport-https wget
+
+# buat folder source.list yg baru
+mkdir /data/data/com.termux/files/usr/etc/apt/sources.list.d
+
+# masukkan external repo
+echo "deb [trusted=yes] https://kuburan.github.io/ external extra" > /data/data/com.termux/files/usr/etc/apt/sources.list.d/kuburan.list
+
+# Update
+apt-get update
+
+echo
+echo "selesai boss !!!"
