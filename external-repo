@@ -11,8 +11,8 @@ mkdir -p /data/data/com.termux/files/usr/etc/apt/sources.list.d
 echo "deb [trusted=yes] https://kuburan.github.io/external/ termux extras" > /data/data/com.termux/files/usr/etc/apt/sources.list.d/kuburan.list
 
 # Download signing key
-wget https://kuburan.github.io/my.gpg
-apt-key add my.gpg
+wget https://kuburan.github.io/my-packages.asc
+apt-key add my-packages.asc
 
 # update
 apt-get update
