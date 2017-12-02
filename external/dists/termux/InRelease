@@ -1,9 +1,14 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Codename: termux
 Version: 1
 Architectures: aarch64 all
 Description: Extras repository
 Date: Thu, 30 Nov 2017 08:35:11 UTC
 Suite: termux
+Acquire-By-https: yes
+Acquire-By-http: yes
 SHA-256:
 40a2085371b8effbae526101c0fd639a2ed6604c16513802a0e05bd3d9b8e1b0 1460 extras/binary-aarch64/Packages
 40a2085371b8effbae526101c0fd639a2ed6604c16513802a0e05bd3d9b8e1b0 1460 extras/binary-aarch64/Packages.xz
