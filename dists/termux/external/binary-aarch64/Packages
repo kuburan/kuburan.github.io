@@ -1,0 +1,26 @@
+Package: crackle
+Version: 1.0.0
+Architecture: aarch64
+Section: utils
+Homepage: http://lacklustre.net/projects/crackle/
+Maintainer: Kuburan_0day @kuburan
+Depends: libpcap
+Installed-Size: 128 KB
+Description: crackle cracks BLE Encryption (AKA Bluetooth Smart).
+Filename: dists/termux/external/binary-aarch64/crackle_1.0.0_aarch64.deb
+Size: 33176
+SHA256: 0634f187819846190912177491ead6dac10a21dc0e003a5c97b891790af4fd86
+
+Package: proxychains
+Version: 4.12
+Architecture: aarch64
+Section: utils
+Depends: dnsutils
+Recomended: tor
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 300 KB
+Homepage: https://github.com/rofl0r/proxychains-ng
+Description: a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies.
+Filename: dists/termux/external/binary-aarch64/proxychains-ng_4.12_aarch64.deb
+Size: 43340
+SHA256: 7501a2c2ecf580599c4e7da19f8766a04f2968933d52f40d564951186ea92b2b

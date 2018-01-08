@@ -1,0 +1,27 @@
+Package: automater
+Version: 0.12
+Architecture: all
+Section: utils
+Homepage: http://www.tekdefense.com/automater/
+Maintainer: Kuburan_0day @kuburan
+Depends: python2
+Installed-Size: 320 KB
+Description: Automater - IP URL and MD5 OSINT Analysis.
+Filename: dists/termux/external/binary-all/automater_0.21_all.deb
+Size: 32052
+SHA256: 5aa66da153b3d2eb6134ec3964bd879a415dd231b3ffb3079ebb4106f7dd0d16
+
+Package: ndiff
+Version: 1.0
+Architecture: all
+Section: utils
+Homepage: https://nmap.org/ndiff/
+Depends: python2
+Recomended: nmap
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 135 KB
+Description: Ndiff is a tool to aid in the comparison of Nmap scans. Specifically, it takes two Nmap XML output files and prints the differences between them.
+Filename: dists/termux/external/binary-all/ndiff_1.0_all.deb
+Size: 16368
+SHA256: 682972eb3073aacc30f893b11ec5996983f10925cc1cbf1ad2a5cd65bcd02f34
+
