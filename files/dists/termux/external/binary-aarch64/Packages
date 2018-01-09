@@ -1,0 +1,121 @@
+Package: crackle
+Version: 1.0.0
+Architecture: aarch64
+Section: utils
+Homepage: http://lacklustre.net/projects/crackle/
+Maintainer: Kuburan_0day @kuburan
+Depends: libpcap
+Installed-Size: 128 KB
+Description: crackle cracks BLE Encryption (AKA Bluetooth Smart).
+Filename: files/dists/termux/external/binary-aarch64/crackle_1.0.0_aarch64.deb
+Size: 33176
+SHA256: 0634f187819846190912177491ead6dac10a21dc0e003a5c97b891790af4fd86
+
+Package: proxychains
+Version: 4.12
+Architecture: aarch64
+Section: utils
+Depends: dnsutils
+Recomended: tor
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 300 KB
+Homepage: https://github.com/rofl0r/proxychains-ng
+Description: a preloader which hooks calls to sockets in dynamically linked programs and redirects it through one or more socks/http proxies.
+Filename: files/dists/termux/external/binary-aarch64/proxychains-ng_4.12_aarch64.deb
+Size: 43340
+SHA256: 7501a2c2ecf580599c4e7da19f8766a04f2968933d52f40d564951186ea92b2b
+
+Package: hashcat-utils
+Version: 1.8
+Architecture: aarch64
+Section: utils
+Recomended: hashcat
+Homepage: https://github.com/hashcat/hashcat-utils
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 334 KB
+Description: Hashcat-utils are a set of small utilities that are useful in advanced password cracking
+Filename: files/dists/termux/external/binary-aarch64/hashcat-utils_1.8_aarch64.deb
+Size: 41668
+SHA256: 8a445e69c9ffe9a0e63c3cd952ae0f179ebe88ad02cc9755cd70aed70e705a0f
+
+Package: lhasa-dev
+Version: 0.3.1
+Architecture: aarch64
+Depends: lhasa
+Section: libs
+Homepage: https://github.com/fragglet/lhasa
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 40 KB
+Description: Development files for Lhasa
+Filename: files/dists/termux/external/binary-aarch64/lhasa-dev_0.3.1_aarch64.deb
+Size: 6536
+SHA256: 452e76820b27126fd487e0942e0a5548fadd4c5a44d41622e8d594a9731cd644
+
+Package: lhasa
+Version: 0.3.1
+Architecture: aarch64
+Section: libs
+Homepage: https://github.com/fragglet/lhasa
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 1.1 MB
+Description: Lhasa is a library for parsing LHA (.lzh) archives
+Filename: files/dists/termux/external/binary-aarch64/lhasa_0.3.1_aarch64.deb
+Size: 114436
+SHA256: 1e13a93ab935e19f9dd8559dbd348281bcea1536e109cd135e35f6c1a65a58d6
+
+Package: cabextract
+Architecture: aarch64
+Version: 1.6
+Section: utils
+Priority: extra
+Recomended: perl
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 390 KB
+Homepage: http://www.cabextract.org.uk/
+Description: A program to extract Microsoft Cabinet (.cab) files
+Filename: files/dists/termux/external/binary-aarch64/cabextract_1.6_aarch64.deb
+Size: 95256
+SHA256: f3c45ae86479cca49e008a309b69bbdd00d5a4bfa853661835f562708eafc0b4
+
+Package: libmspack-dev
+Version: 0.6-alpha
+Architecture: aarch64
+Section: devel
+Priotity: extra
+Depends: libmspack
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 113 KB
+Homepage: https://www.cabextract.org.uk/libmspack/
+Description: Development files for libmspack
+Filename: files/dists/termux/external/binary-aarch64/libmspack-dev_0.6_aarch64.deb
+Size: 17756
+SHA256: 91076db8b4b16d269a3f44c833b03498890ab3e8817f4c6c90d8673d5a332c91
+
+Package: libmspack
+Version: 0.6-alpha
+Architecture: aarch64
+Section: libs
+Priotity: extra
+Recomended: cabextract
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 1.6 MB
+Homepage: https://www.cabextract.org.uk/libmspack/
+Description: A library for Microsoft compression formats
+Filename: files/dists/termux/external/binary-aarch64/libmspack_0.6_aarch64.deb
+Size: 125064
+SHA256: 18156dec8ce2d9b41d98a92898ebc35d18f38fc3d6d1b93daad747207ecbe4fe
+
+Package: sleuthkit
+Version: 4.5.0
+Architecture: aarch64
+Section: tools
+Depends: libsqlite
+Priority: extra
+Homepage: http://www.sleuthkit.org/sleuthkit/
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 60 MB
+Description: The Sleuth Kit® (TSK) is a library and collection of command line digital forensics tools that allow you to investigate volume and file system data. The library can be incorporated into larger digital forensics tools and the command line tools can be directly used to find evidence.
+Filename: files/dists/termux/external/binary-aarch64/sleuthkit_4.5.0_aarch64.deb
+Size: 4250148
+SHA256: 014fbc7a22d17465f36ba3daa5aa8b45dfb8d34added6996c3de40b3a37b30cc
+

@@ -1,0 +1,12 @@
+Codename: termux
+Version: 1
+Architectures: all aarch64
+Description: external repository for Termux
+Suite: termux
+Date: Mon, 08 Jan 2018 07:50:15 +0000
+Acquire-By-Hash: yes
+SHA256:
+ 519beacf7229cd5b0c1efa2b0a37f156a9f8fb93b5155f38fc8acada83910415 1736 external/binary-all/Packages
+ 752c465f1f0cbfb06b0a794a0b757efdbce688300fccd845ed9288c2b5abd01b 904 external/binary-all/Packages.xz
+ 517ddcc2f9921c08a8ae652c3b35ee3408ba63869b1ed0693fbbca845b2aca4f 4195 external/binary-aarch64/Packages
+ bc4da130ad011060041d4a9bc57754c313f79146eff50fac21927fb179afcd1a 1556 external/binary-aarch64/Packages.xz
