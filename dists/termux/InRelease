@@ -7,7 +7,6 @@ Architectures: all aarch64
 Description: external repository for Termux
 Suite: termux
 Date: Mon, 08 Jan 2018 07:50:15 +0000
-Acquire-By-Hash: yes
 SHA256:
 ea6c55bc955c82ba60cc03145e311947bf744f41dd50bb8094026223f048edc8 1712 external/binary-all/Packages
 038c1ab3df8f5cb36eeb3db46a972446ebaaf711672ce6a32f65a4918dc4ff93 900 external/binary-all/Packages.xz
