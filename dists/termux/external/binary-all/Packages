@@ -25,3 +25,31 @@ Filename: dists/termux/external/binary-all/ndiff_1.0_all.deb
 Size: 16368
 SHA256: 682972eb3073aacc30f893b11ec5996983f10925cc1cbf1ad2a5cd65bcd02f34
 
+Package: redhawk
+Version: 2.0.0
+Architecture: all
+Section: tools
+Prioroty: extra
+Depends: php, nmap
+Homepage: https://github.com/Tuhinshubhra/RED_HAWK
+Installed-Size: 300 KB
+Maintainer: Kuburan_0day @kuburan
+Description: All in one tool for Information Gathering, Vulnerability Scanning and Crawling.
+Filename: dists/termux/external/binary-all/redhawk_2.0.0_all.deb
+Size: 20316
+SHA256: 8d5b738a71c1c2ea7178d9c89e104b43f1e2c5601a7124d65ba45aba49c7e754
+
+Package: nikto
+Architecture: all
+Version: 2.1.6
+Section: tools
+Priority: extra
+Depends: perl
+Maintainer: kuburan_0day @kuburan
+Installed-Size: 3072 KB
+Homepage: https://cirt.net/Nikto2
+Description: Nikto web server scanner
+Filename: dists/termux/external/binary-all/nikto_2.1.6_all.deb
+Size: 319412
+SHA256: 5d928de549707b0f6fb5f9c5f0b858dc3951f69a3a96b4d0a4460142d2b8e45b
+

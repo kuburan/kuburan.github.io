@@ -6,7 +6,7 @@ Suite: termux
 Date: Mon, 08 Jan 2018 07:50:15 +0000
 Acquire-By-Hash: yes
 SHA256:
-a97d776c05e0c37d168de5ffa38c514405a96c87a2517d7713f668b10421b768 887 external/binary-all/Packages
-f2291295d50f7430c29785e60180202a6bedcbe59208d25facdccd59c3033bf0 592 external/binary-all/Packages.xz
-c5e0e0c5919341dfb300cb936bda99f8f7f9bcac2096d1acfd74e1ae18b8f437 938 external/binary-aarch64/Packages
-431b16324d560fde4a7da0f09ddd625689632bfc2a19cdbbd9e673113c3a199c 612 external/binary-aarch64/Packages.xz
+ea6c55bc955c82ba60cc03145e311947bf744f41dd50bb8094026223f048edc8 1712 external/binary-all/Packages
+038c1ab3df8f5cb36eeb3db46a972446ebaaf711672ce6a32f65a4918dc4ff93 900 external/binary-all/Packages.xz
+642b96987bc10760a64fe9bda40c993ab3058fe56034ea7985da17cc835ed3b7 4141 external/binary-aarch64/Packages
+294fa042a719897145e9d01956f3bcc785d5e82f870c3535a4dca33cd08167d4 1552 external/binary-aarch64/Packages.xz
