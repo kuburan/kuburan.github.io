@@ -1,0 +1,30 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Codename: termux
+Version: 1
+Architectures: all aarch64
+Description: external repository for Termux
+Suite: termux
+Date: Mon, 08 Jan 2018 07:50:15 +0000
+SHA256:
+ 519beacf7229cd5b0c1efa2b0a37f156a9f8fb93b5155f38fc8acada83910415 1736 external/binary-all/Packages
+ 752c465f1f0cbfb06b0a794a0b757efdbce688300fccd845ed9288c2b5abd01b 904 external/binary-all/Packages.xz
+ 517ddcc2f9921c08a8ae652c3b35ee3408ba63869b1ed0693fbbca845b2aca4f 4195 external/binary-aarch64/Packages
+ bc4da130ad011060041d4a9bc57754c313f79146eff50fac21927fb179afcd1a 1556 external/binary-aarch64/Packages.xz
+-----BEGIN PGP SIGNATURE-----
+
+iQIcBAEBCgAGBQJaVN0fAAoJEOexEjWyQCPVsK0P/3eZWiqYoVr2tFqb1Ndh6Jc4
+oGDOKQZyLunLTEGpXhOGTXr0VDA/mT0omeyQD7s7JsoMt9rHSpTJTN3MdkWGpUgb
+iNpy5egmUZXjN6D8c3sge1fgsq5Ltn1wmUuQBH5zvQwr7nhxRj+BI5ga5AjdMESy
+HKxN9LRodBIjaL2G09aOj9Cjr75D49sBsWjWoMmc8dszV2YuatzXyAVi0nEooR/f
+HL1Cu1sFIt+bUOXnkoxurS+YHf8/Bpe9grsY3pQ9iv7j8+PcLjv5VQs5Kw4XGHEs
+tfl80qkRhAiEEbeEhex8DI3IrwiExiBuPDiwB44aw7u+Fk2/pAZy+Z7ME2IPaCSu
+gj42FmUJx5uy1A2aB9++3uyyz3wnaNk0Dmpq9HYkdntUqHRRGXgVLoRu4dDIwBBG
+S/V1nmvJbZlYuXzuQhzH5Vu4bI/doBdZfv6rATpjN6IxV7jDsN0NiemKRLg9udno
+xNQ5+NoHdfskN7gB+raOPNXxabILJ3LK3wakkevUFbnCL2P0ztLkFNo2BUFc48zE
+LNlu0hBUPiNk5pVq9gcf3W8oF5X2wPCAi08S/Kv5v1uLEMi3e2InMntvdOmjtLPQ
+fgl9+aG90wxXVdNo2IrDvQWDruGWuEPWrPYzJauTA7Cc55uAp5UZTGbiib9Crx1K
+XdLBP9qTODnX7NS7GIeV
+=bi6s
+-----END PGP SIGNATURE-----
