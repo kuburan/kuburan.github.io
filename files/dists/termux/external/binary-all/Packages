@@ -52,3 +52,16 @@ Description: Nikto web server scanner
 Filename: dists/termux/external/binary-all/nikto_2.1.6_all.deb
 Size: 319412
 SHA256: 5d928de549707b0f6fb5f9c5f0b858dc3951f69a3a96b4d0a4460142d2b8e45b
+
+Package: sqlmap
+Version: 1.2.1.6-dev
+Architecture: all
+Section: tools
+Depends: python2
+Homepage: http://sqlmap.org
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 18 MB
+Description: Automatic SQL injection and database takeover tool 
+Filename: dists/termux/external/binary-all/sqlmap_1.2.1.6_all.deb
+Size: 9186820
+SHA256: b7af32f19dfa4aff7048a57f3eb0ec25924096e01faec400f70aab117d3cb324
