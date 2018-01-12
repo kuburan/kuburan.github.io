@@ -119,3 +119,118 @@ Filename: dists/termux/external/binary-aarch64/sleuthkit_4.5.0_aarch64.deb
 Size: 4250148
 SHA256: 014fbc7a22d17465f36ba3daa5aa8b45dfb8d34added6996c3de40b3a37b30cc
 
+Package: pil
+Version: 1.1.7
+Architecture: aarch64
+Section: libs
+Recomended: volatility-framework
+Priority: extra
+Depends: python2, libjpeg-turbo, freetype
+Homepage: http://www.pythonware.com/products/pil/
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 1.5 MB
+Description: The Python Imaging Library
+Filename: dists/termux/external/binary-aarch64/PIL_1.1.7_aarch64.deb
+Size: 364768
+SHA256: 21859cbe04494d210a919dacb878cfa96a427ad03f903aa5697d315f812ff2e6
+
+Package: distorm
+Version: 3.3.4
+Architecture: aarch64
+Section: libs
+Recomended: volatility-framework
+Priority: extra
+Depends: python2
+Homepage: https://github.com/gdabah/distorm
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 400 KB
+Description: Powerful Disassembler Library For x86/AMD64
+Filename: dists/termux/external/binary-aarch64/distorm_3.3.4_aarch64.deb
+Size: 66660
+SHA256: f29bb8c39ed52b0dd2db0e983b4ef90c88d8d8c4872d3e2aaff44c0f5952bf46
+
+Package: john
+Version: 1.8.0.9-bleeding
+Architecture: aarch64
+Section: tools
+Priority: extra
+Depends: openssl, libgmp, libcrypt, libltdl, libpcap, libnpth
+Recomended: libfvde, kerberom
+Homepage: http://www.openwall.com/john/
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 100 MB
+Description: a fast password cracker tool
+Filename: dists/termux/external/binary-aarch64/jtr-jumbo_1.8.0_aarch64.deb
+Size: 14115184
+SHA256: 46bac815acec24855bf4ca79c8d6c3829f160e46ca204b1c5c167809f2feaa2b
+
+Package: libfvde-dev
+Version: 2016-09-18
+Architecture: aarch64
+Section: devel
+Depends: libfvde
+Maintainer: Kuburan_0day @kuburan
+Homepage: https://github.com/libyal/libfvde
+Installed-Size: 70 kB
+Description: Development files for libfvde.
+Filename: dists/termux/external/binary-aarch64/libfvde-dev_2016-09-18_aarch64.deb
+Size: 6776
+SHA256: 24261310b3a059710311213be032e18bf9feff32a13c778abed689f1f16826f6
+
+Package: libfvde
+Version: 2016-09-18
+Architecture: aarch64
+Section: libs
+Recomended: john
+Depends: openssl
+Maintainer: Kuburan_0day @kuburan
+Homepage: https://github.com/libyal/libfvde
+Installed-Size: 9.9 MB
+Description: Library and tools to access FileVault Drive Encryption (FVDE) encrypted volumes
+Filename: dists/termux/external/binary-aarch64/libfvde_2016-09-18_aarch64.deb
+Size: 1074620
+SHA256: 728176ef7afd4ee18597899cafae007977c42cf9fe1e3974904a93f2975b24ed
+
+Package: pycrypto
+Architecture: aarch64
+Version: 3.6.1
+Section: utils
+Recomended: volatility-framework
+Priority: extra
+Depends: python2, python2-dev, libgmp
+Homepage: https://www.dlitz.net/software/pycrypto/
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 1.4 MB
+Description: The Python Cryptography Toolkit.
+Filename: dists/termux/external/binary-aarch64/pycrypto_2.6.1_aarch64.deb
+Size: 220356
+SHA256: ff22d321b78191b5bc97986b253d0c96d9ccfb4e49ea8a4241e130db189e4768
+
+Package: yara-dev
+Version: 3.7.0
+Architecture: aarch64
+Section: devel
+Priority: extra
+Depends: yara
+Homepage: http://virustotal.github.io/yara/
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 152 KB
+Description: Development files for yara
+Filename: dists/termux/external/binary-aarch64/yara-dev_3.7.0_aarch64.deb
+Size: 17120
+SHA256: b6802fb22c42a966a2e0a4494086a6d37c919dc6bc1b2ebb0fb244e39258197e
+
+Package: yara
+Version: 3.7.0
+Architecture: aarch64
+Section: tools
+Recomended: volatility-framework
+Priority: extra
+Depends: openssl, libcrypt
+Homepage: http://virustotal.github.io/yara/
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 2.1 MB
+Description: YARA is a tool aimed at (but not limited to) helping malware researchers to identify and classify malware samples.
+Filename: dists/termux/external/binary-aarch64/yara_3.7.0_aarch64.deb
+Size: 195584
+SHA256: 6b6ad046143d66808843f2a2f81bc260568913f6185d6fb482936e978f1b17f3

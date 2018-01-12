@@ -65,3 +65,34 @@ Description: Automatic SQL injection and database takeover tool
 Filename: dists/termux/external/binary-all/sqlmap_1.2.1.6_all.deb
 Size: 9186820
 SHA256: b7af32f19dfa4aff7048a57f3eb0ec25924096e01faec400f70aab117d3cb324
+
+
+
+
+Package: commix
+Version: 2.3-dev
+Architecture: all
+Section: tools
+Depends: python2
+Homepage: http://commixproject.com
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 1.2 MB
+Description: Automated All-in-One OS command injection and exploitation tool.
+Filename: dists/termux/external/binary-all/commix_2.3_all.deb
+Size: 130232
+SHA256: 1e41cb373e7f97a11a5c73a5caabb18e74afcbe2ac0329efa11fce5af5cb8aa4
+
+Package: volatility
+Architecture: all
+Version: 2.6
+Section: tools
+Recomended: pil, pycrypto, distorm, yara, libraw1394
+Priority: extra
+Depends: python2, python2-dev, pcre
+Maintainer: Kuburan_0day @kuburan
+Installed-Size: 24.3 MB
+Homepage: http://volatilityfoundation.org/
+Description: An advanced memory forensics framework 
+Filename: dists/termux/external/binary-all/volatility-framework_2.6_all.deb
+Size: 2719960
+SHA256: ab1d0669dc8238048807b72d6027a94f76135f7289a1de6f95648186b4da6e72
