@@ -5,7 +5,7 @@ Description: external repository for Termux
 Suite: termux
 Date: Wed, 10 Jan 2018 14:22:34 +0000
 SHA256:
- ea6964d67f96d9557400b270dd5153f5a495b17f41aac7c6c5ca82e9ea56156a 2101 external/binary-all/Packages
- cdd3496fc7b8bd177ef6db06f1d702eb06e5ad1b63d4b031df553e78e9e18776 1020 external/binary-all/Packages.xz
- 642b96987bc10760a64fe9bda40c993ab3058fe56034ea7985da17cc835ed3b7 4141 external/binary-aarch64/Packages
- 294fa042a719897145e9d01956f3bcc785d5e82f870c3535a4dca33cd08167d4 1552 external/binary-aarch64/Packages.xz
+ 17d221abad5fe4d34484ba6a44dfd9f1dda2b634dc876a8f910884791aa7d7a1 2995 external/binary-all/Packages
+ 93aa7252a9e3ae51984cf1608e2bc4f5a01f31e3554ceb2a9559e324b7da6285 1300 external/binary-all/Packages.xz
+ ed29b27c8d03d56d39d630a1e1c88731db063cf7abd6084b29a8cd9af2fc7f1a 7811 external/binary-aarch64/Packages
+ 4db37c6d2676e5363a7ec4ece9c1a839db183b95f23a96bc0e3b17f3eeab39b5 2516 external/binary-aarch64/Packages.xz
