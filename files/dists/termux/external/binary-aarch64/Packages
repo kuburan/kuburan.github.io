@@ -234,3 +234,206 @@ Description: YARA is a tool aimed at (but not limited to) helping malware resear
 Filename: dists/termux/external/binary-aarch64/yara_3.7.0_aarch64.deb
 Size: 195584
 SHA256: 6b6ad046143d66808843f2a2f81bc260568913f6185d6fb482936e978f1b17f3
+
+Package: clang
+Architecture: aarch64
+Installed-Size: 41248
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: C language frontend for LLVM
+Homepage: http://clang.llvm.org/
+Depends: libllvm (=5.0.0)
+Filename: dists/termux/external/binary-aarch64/clang_5.0.0_aarch64.deb
+Size: 6145488
+SHA256: beba07ef37e99a579dc041814edc37fea98bdd0fe02f52aacbbf9c7370fce524
+
+Package: clinfo
+Architecture: aarch64
+Version: 2.2.17.08.25
+Section: tools
+Priority: extra
+Depends: ocl-icd
+Maintainer: Fredrik Fornwall @fornwall
+Homepage: https://github.com/Oblomov/clinfo
+Installed-Size: 104
+Description: An application that enumerates the properties of OpenCL platforms and devices
+Filename: dists/termux/external/binary-aarch64/clinfo_2.2.17.08.25_aarch64.deb
+Size: 21372
+SHA256: f80d6939700c73bc7c15f7b01f8cb61770cc106c93cc4db9739e0af3f33a1adc
+
+Package: clpeak
+Version: 1.0
+Architecture: aarch64
+Section: tools
+Priority: extra
+Depends: ocl-icd
+Homepage: https://github.com/krrishnarraj/clpeak
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 196
+Description: A synthetic benchmarking tool to measure peak capabilities of a opencl device. This tool is intended toward developers to fine-tune opencl kernels for a particular device/class of device.
+Filename: dists/termux/external/binary-aarch64/clpeak_1.0_aarch64.deb
+Size: 43840
+SHA256: 994d2e86212e831efecc4072d19c673cb09aba2fb14dd180a6b0cd2804a868f8
+
+Package: hashcat
+Version: 3.6.0-stable
+Architecture: aarch64
+Section: tools
+Recomended: hashcat-utils, statsprocessor, princeprocessor, maskprocessor
+Priority: extra
+Depends: pocl, libandroid-support, libandroid-support-dev
+Homepage: https://hashcat.net/hashcat/
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 53.40 MB
+Description: World's fastest and most advanced password recovery utility.
+Filename: dists/termux/external/binary-aarch64/hashcat_3.6.0_aarch64.deb
+Size: 1983108
+SHA256: df587ca694f0bdd038f730e5b44ad9f4d605dc4be0d7018f8d4065d2525a96bc
+
+Package: hwloc-dev
+Version: 1.11.7
+Architecture: aarch64
+Section: devel
+Priority: extra
+Depends: hwloc
+Maintainer: Fredrik Fornwall @fornwall
+Homepage: http://www.open-mpi.de/software/hwloc
+Installed-Size: 2016
+Description: Development files for hwloc
+Filename: dists/termux/external/binary-aarch64/hwloc-dev_1.11.7_aarch64.deb
+Size: 74400
+SHA256: 3c6d63d768ff224e236e34776e243bc67c785079ce68ec23d18cd7e3acbe22db
+
+Package: hwloc
+Version: 1.11.7
+Architecture: aarch64
+Section: libs
+Priority: extra
+Maintainer: Fredrik Fornwall @fornwall
+Homepage: http://www.open-mpi.de/software/hwloc
+Installed-Size: 652
+Description: The Portable Hardware Locality (hwloc) software package provides a portable abstraction of the hierarchical topology of modern architectures, including NUMA memory nodes, sockets, shared caches, cores and simultaneous multithreading.
+Filename: dists/termux/external/binary-aarch64/hwloc_1.11.7_aarch64.deb
+Size: 142800
+SHA256: 9a2a6f2c553f2ff893d74876acb5379ba159bc90c565476bea4df166cc6f9aa6
+
+Package: libclang
+Architecture: aarch64
+Installed-Size: 10792
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: C language frontend library for LLVM
+Homepage: http://clang.llvm.org/
+Depends: libllvm (=5.0.0)
+Filename: dists/termux/external/binary-aarch64/libclang_5.0.0_aarch64.deb
+Size: 2798708
+SHA256: dab7aa9f8722f81caa32d7fbd2bb21c62a1ef49e22ce63533584c2f3f8d3f877
+
+Package: libllvm
+Architecture: aarch64
+Installed-Size: 19324
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: Modular compiler and toolchain technologies library
+Homepage: http://clang.llvm.org/
+Depends: binutils, ncurses, ndk-sysroot, ndk-stl, libgcc
+Conflicts: gcc, clang (<< 3.9.1-3)
+Replaces: gcc
+Filename: dists/termux/external/binary-aarch64/libllvm_5.0.0_aarch64.deb
+Size: 4504748
+SHA256: 1e546cb5d9d95564bea028e3229d0a32c80281ce2e2b803c02dd36b7373df3a8
+
+Package: llvm
+Architecture: aarch64
+Installed-Size: 4376
+Maintainer: Fredrik Fornwall @fornwall
+Version: 5.0.0
+Description: C language frontend for LLVM
+Homepage: http://clang.llvm.org/
+Depends: libllvm (=5.0.0)
+Filename: dists/termux/external/binary-aarch64/llvm_5.0.0_aarch64.deb
+Size: 869676
+SHA256: 0d44ce0bd6261c5e3f19ca62d63e346d025ebfface63cf0117257622ae4e97b2
+
+Package: maskprocessor
+Version: 0.73
+Architecture: aarch64
+Section: tools
+Recomended: hashcat
+Priority: extra
+Homepage: https://github.com/hashcat/maskprocessor
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 46 KB
+Description: High-Performance word generator with a per-position configureable charset.
+Filename: dists/termux/external/binary-aarch64/maskprocessor_0.73_aarch64.deb
+Size: 7700
+SHA256: ba16b23f79ee56cf8c29ffc610424057924ccd3fce5931cb785db7c3b32f5442
+
+Package: ocl-icd-dev
+Architecture: aarch64
+Version: 2.2.10
+Section: devel
+Prioroty: extra
+Depends : ocl-icd
+Maintainer: Fredrik Fornwall @fornwall
+Homepage: https://github.com/OCL-dev/ocl-icd
+Installed-Size: 300 KB
+Description: Development files for ocl-icd
+Filename: dists/termux/external/binary-aarch64/ocl-icd-dev_2.2.10_aarch64.deb
+Size: 24320
+SHA256: 6c30bc908fe8d19253ea6250babcc146ab8577b9595f98ee5ab41d0ad1c2846f
+
+Package: ocl-icd
+Architecture: aarch64
+Version: 2.2.10
+Section: libs
+Priority: extra
+Homepage: https://github.com/OCL-dev/ocl-icd
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 424
+Description: An OpenCL ICD loader
+Filename: dists/termux/external/binary-aarch64/ocl-icd_2.2.10_aarch64.deb
+Size: 22064
+SHA256: 1e36e41e8d4337c569604cf1c8b41cc74f224ce561ca86616d952a131b88b431
+
+Package: pocl
+Version: 0.15pre
+Architecture: aarch64
+Depends: libltdl, libtool, ncurses-dev, binutils, ndk-sysroot, hwloc, ocl-icd, ocl-icd-dev, clang (=5.0.0), libclang (=5.0.0), llvm (=5.0.0), libllvm (=5.0.0)
+Section: utils
+Priority: extra
+Maintainer: Fredrik Fornwall @fornwall
+Homepage: http://portablecl.org/
+Installed-Size: 18336
+Description: Portable Computing Language (pocl) is an open source implementation of the OpenCL standard which can be easily adapted for new targets and devices, both for homogeneous CPU and heterogeneous GPUs/accelerators.
+Filename: dists/termux/external/binary-aarch64/pocl_0.15pre_aarch64.deb
+Size: 4110092
+SHA256: 804064dab9d2dad3861f853e51d6cb753b38023721f9587ddfb4b4939402f462
+
+Package: princeprocessor
+Version: 0.22
+Architecture: aarch64
+Section: tools
+Recomended: hashcat
+Priority: extra
+Homepage: https://github.com/hashcat/princeprocessor
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 133 KB
+Description: Standalone password candidate generator using the PRINCE algorithm.
+Filename: dists/termux/external/binary-aarch64/princeprocessor_0.22_aarch64.deb
+Size: 28060
+SHA256: 8fe3441e42543e9832d184793ff29b44c9ee23aa8fae2ec5867133c1265f42d6
+
+Package: statsprocessor
+Version: 0.12
+Architecture: aarch64
+Section: tools
+Recomended: hashcat
+Priority: extra
+Homepage: https://github.com/hashcat/statsprocessor
+Maintainer: Fredrik Fornwall @fornwall
+Installed-Size: 34 KB
+Description: Word-generator based on per-position markov-chains.
+Filename: dists/termux/external/binary-aarch64/statsprocessor_0.12_aarch64.deb
+Size: 8220
+SHA256: 4d8ed166f9c18aefeb2c5a6118419855d6d4669ffe86cb59188cf73590e7e4c3
