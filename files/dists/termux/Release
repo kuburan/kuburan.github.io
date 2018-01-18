@@ -3,9 +3,9 @@ Version: 1
 Architectures: all aarch64
 Description: external repository for Termux
 Suite: termux
-Date: Wed, 10 Jan 2018 14:22:34 +0000
+Date: Thu, 18 Jan 2018 9:20:00 +0000
 SHA256:
- 17d221abad5fe4d34484ba6a44dfd9f1dda2b634dc876a8f910884791aa7d7a1 2995 external/binary-all/Packages
- 93aa7252a9e3ae51984cf1608e2bc4f5a01f31e3554ceb2a9559e324b7da6285 1300 external/binary-all/Packages.xz
- ed29b27c8d03d56d39d630a1e1c88731db063cf7abd6084b29a8cd9af2fc7f1a 7811 external/binary-aarch64/Packages
- 4db37c6d2676e5363a7ec4ece9c1a839db183b95f23a96bc0e3b17f3eeab39b5 2516 external/binary-aarch64/Packages.xz
+ 59fed58d56b0a26c517921616abdf2e53bd7dffb389ef88e85b3f2ebc7ecdc55 4136 external/binary-all/Packages
+ a95c1e02a3c407281d53374d6427b3d204e2aaced2255f8103f6ba2583787d3c 1660 external/binary-all/Packages.xz
+ 4cf94df56a55bac1ddafe0f8deb998ea29cdfbd7b16c1cc27fd4584923a788a7 14948 external/binary-aarch64/Packages
+ 8701f573a7ab2825fe4d7e22386caab7832406a42fd6d4e10810292ab69c066b 4392 external/binary-aarch64/Packages.xz
