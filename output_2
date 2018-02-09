@@ -1,0 +1,868 @@
+execve("/data/data/com.termux/files/usr/bin/apt", ["apt", "install", "zsh"], 0x7fb1b53000 /* 16 vars */) = 0
+mprotect(0x7f7eecd000, 4096, PROT_READ) = 0
+set_tid_address(0x7f7eed02d0)           = 24067
+mmap(NULL, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7eeed000
+madvise(0x7f7eeed000, 16384, MADV_MERGEABLE) = -1 EINVAL (Invalid argument)
+mprotect(0x7f7eeed000, 4096, PROT_NONE) = 0
+sigaltstack({ss_sp=0x7f7eeee000, ss_flags=0, ss_size=12288}, NULL) = 0
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eeee000, 12288, "thread signal stack") = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7eeec000
+mprotect(0x7f7eeec000, 4096, PROT_READ) = 0
+mprotect(0x7f7eeec000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eeec000, 4096, PROT_READ) = 0
+mprotect(0x7f7eeec000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eeec000, 4096, PROT_READ) = 0
+mprotect(0x7f7eeec000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eeec000, 4096, PROT_READ) = 0
+mprotect(0x7f7eeec000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eeec000, 4096, PROT_READ) = 0
+openat(AT_FDCWD, "/dev/__properties__", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=131072, ...}) = 0
+mmap(NULL, 131072, PROT_READ, MAP_SHARED, 3, 0) = 0x7f7ee6b000
+close(3)                                = 0
+rt_sigaction(SIGABRT, {sa_handler=0x7f7ee8da30, sa_mask=[], sa_flags=SA_ONSTACK|SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x7f7ee8da30, sa_mask=[], sa_flags=SA_ONSTACK|SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGFPE, {sa_handler=0x7f7ee8da30, sa_mask=[], sa_flags=SA_ONSTACK|SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGILL, {sa_handler=0x7f7ee8da30, sa_mask=[], sa_flags=SA_ONSTACK|SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {sa_handler=0x7f7ee8da30, sa_mask=[], sa_flags=SA_ONSTACK|SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGSEGV, {sa_handler=0x7f7ee8da30, sa_mask=[], sa_flags=SA_ONSTACK|SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGSTKFLT, {sa_handler=0x7f7ee8da30, sa_mask=[], sa_flags=SA_ONSTACK|SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+rt_sigaction(SIGTRAP, {sa_handler=0x7f7ee8da30, sa_mask=[], sa_flags=SA_ONSTACK|SA_RESTART|SA_SIGINFO}, NULL, 8) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eeeb000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eeeb000, 4096, "linker_alloc") = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eeea000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eeea000, 4096, "linker_alloc_64") = 0
+mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eee9000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eee9000, 24, "linker_alloc_vector") = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eee8000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eee8000, 4096, "linker_alloc_32") = 0
+mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eee7000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eee7000, 24, "linker_alloc_vector") = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eee6000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eee6000, 4096, "linker_alloc") = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eee5000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eee5000, 4096, "linker_alloc") = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libtermux-exec.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0700, st_size=5720, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eee3000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eee3000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eee1000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eee1000, 8192, "linker_alloc_lob") = 0
+futex(0x7f7eed2ae4, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/data/data/com.termux/files/usr/"..., 4096) = 53
+munmap(0x7f7eee1000, 8192)              = 0
+munmap(0x7f7eee3000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eee4000
+mmap(NULL, 12288, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7eee1000
+mmap(0x7f7eee1000, 2466, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7eee1000
+mmap(0x7f7eee2000, 4208, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7eee2000
+munmap(0x7f7eee4000, 4096)              = 0
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eee4000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eee4000, 4096, "linker_alloc_16") = 0
+mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eee0000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eee0000, 24, "linker_alloc_vector") = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libapt-private.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=465552, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eede000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eede000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedc000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedc000, 8192, "linker_alloc_lob") = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/data/data/com.termux/files/usr/"..., 4096) = 53
+munmap(0x7f7eedc000, 8192)              = 0
+munmap(0x7f7eede000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eedf000
+mmap(NULL, 532480, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7ede9000
+mmap(0x7f7ede9000, 391516, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7ede9000
+mmap(0x7f7ee67000, 12852, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x6e000) = 0x7f7ee67000
+munmap(0x7f7eedf000, 4096)              = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libapt-pkg.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=1718376, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eede000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eede000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedc000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedc000, 8192, "linker_alloc_lob") = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/data/data/com.termux/files/usr/"..., 4096) = 49
+munmap(0x7f7eedc000, 8192)              = 0
+munmap(0x7f7eede000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\0\0\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eedf000
+mmap(NULL, 1785856, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7ec35000
+mmap(0x7f7ec35000, 1619716, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7ec35000
+mmap(0x7f7eddf000, 36960, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x19a000) = 0x7f7eddf000
+munmap(0x7f7eedf000, 4096)              = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libc++_shared.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=1058904, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eede000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eede000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedc000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedc000, 8192, "linker_alloc_lob") = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/data/data/com.termux/files/usr/"..., 4096) = 52
+munmap(0x7f7eedc000, 8192)              = 0
+munmap(0x7f7eede000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0P\f\4\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eedf000
+mmap(NULL, 1138688, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7eb1f000
+mmap(0x7f7eb1f000, 1027772, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7eb1f000
+mmap(0x7f7ec2a000, 28944, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0xfb000) = 0x7f7ec2a000
+mmap(0x7f7ec32000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7ec32000
+munmap(0x7f7eedf000, 4096)              = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libm.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/vendor/lib64/libm.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/system/lib64/libm.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=235544, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eede000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eede000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedc000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedc000, 8192, "linker_alloc_lob") = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libm.so", 4096) = 21
+munmap(0x7f7eedc000, 8192)              = 0
+munmap(0x7f7eede000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0`D\0\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eedf000
+mmap(NULL, 303104, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7ead5000
+mmap(0x7f7ead5000, 229016, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7ead5000
+mmap(0x7f7eb1d000, 4424, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x38000) = 0x7f7eb1d000
+munmap(0x7f7eedf000, 4096)              = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/vendor/lib64/libc.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/system/lib64/libc.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1037368, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eede000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eede000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedc000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedc000, 8192, "linker_alloc_lob") = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libc.so", 4096) = 21
+munmap(0x7f7eedc000, 8192)              = 0
+munmap(0x7f7eede000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\0\223\1\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eedf000
+mmap(NULL, 958464, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e9eb000
+mmap(0x7f7e9eb000, 799456, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7e9eb000
+mmap(0x7f7eabe000, 34576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0xc3000) = 0x7f7eabe000
+mmap(0x7f7eac7000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7eac7000
+munmap(0x7f7eedf000, 4096)              = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libz.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/vendor/lib64/libz.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/system/lib64/libz.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=116536, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eede000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eede000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedc000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedc000, 8192, "linker_alloc_lob") = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libz.so", 4096) = 21
+munmap(0x7f7eedc000, 8192)              = 0
+munmap(0x7f7eede000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\320!\0\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eedf000
+mmap(NULL, 184320, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e9be000
+mmap(0x7f7e9be000, 111272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7e9be000
+mmap(0x7f7e9e9000, 4200, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x1b000) = 0x7f7e9e9000
+munmap(0x7f7eedf000, 4096)              = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/liblzma.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0600, st_size=123352, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eede000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eede000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedc000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedc000, 8192, "linker_alloc_lob") = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/data/data/com.termux/files/usr/"..., 4096) = 46
+munmap(0x7f7eedc000, 8192)              = 0
+munmap(0x7f7eede000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\260.\0\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eedf000
+mmap(NULL, 188416, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e990000
+mmap(0x7f7e990000, 119880, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7e990000
+mmap(0x7f7e9bd000, 3104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x1d000) = 0x7f7e9bd000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eede000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eede000, 4096, "linker_alloc") = 0
+munmap(0x7f7eedf000, 4096)              = 0
+close(3)                                = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libc++.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/vendor/lib64/libc++.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/system/lib64/libc++.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=944056, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedc000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedc000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eeda000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eeda000, 8192, "linker_alloc_lob") = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libc++.so", 4096) = 23
+munmap(0x7f7eeda000, 8192)              = 0
+munmap(0x7f7eedc000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\20\341\3\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eedf000
+mmap(NULL, 987136, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e89f000
+mmap(0x7f7e89f000, 877716, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7e89f000
+mmap(0x7f7e985000, 28728, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0xdf000) = 0x7f7e985000
+mmap(0x7f7e98d000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7e98d000
+munmap(0x7f7eedf000, 4096)              = 0
+close(3)                                = 0
+mprotect(0x7f7eef3000, 4096, PROT_READ) = 0
+mprotect(0x7f7eee2000, 4096, PROT_READ) = 0
+mprotect(0x7f7ee67000, 8192, PROT_READ) = 0
+mprotect(0x7f7eddf000, 24576, PROT_READ) = 0
+mprotect(0x7f7ec2a000, 28672, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedf000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedf000, 4096, "linker_alloc_128") = 0
+mmap(NULL, 24, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedd000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedd000, 24, "linker_alloc_vector") = 0
+mprotect(0x7f7eb1d000, 4096, PROT_READ) = 0
+munmap(0x7f7eedf000, 4096)              = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedf000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedf000, 4096, "linker_alloc_128") = 0
+mprotect(0x7f7eabe000, 24576, PROT_READ) = 0
+munmap(0x7f7eedf000, 4096)              = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedf000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedf000, 4096, "linker_alloc_128") = 0
+mprotect(0x7f7e9e9000, 4096, PROT_READ) = 0
+munmap(0x7f7eedf000, 4096)              = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedf000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedf000, 4096, "linker_alloc_128") = 0
+mprotect(0x7f7e985000, 28672, PROT_READ) = 0
+munmap(0x7f7eedf000, 4096)              = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedf000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedf000, 4096, "linker_alloc_128") = 0
+munmap(0x7f7eedf000, 4096)              = 0
+mprotect(0x7f7eede000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eeeb000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eee5000, 4096, PROT_READ|PROT_WRITE) = 0
+openat(AT_FDCWD, "/dev/__properties__", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=131072, ...}) = 0
+mmap(NULL, 131072, PROT_READ, MAP_SHARED, 3, 0) = 0x7f7e87f000
+close(3)                                = 0
+futex(0x7f7eac6788, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/libnetd_client.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/vendor/lib64/libnetd_client.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/system/lib64/libnetd_client.so", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=9888, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedb000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedb000, 8192, "linker_alloc_lob") = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eed9000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eed9000, 8192, "linker_alloc_lob") = 0
+readlinkat(AT_FDCWD, "/proc/self/fd/3", "/system/lib64/libnetd_client.so", 4096) = 31
+munmap(0x7f7eed9000, 8192)              = 0
+munmap(0x7f7eedb000, 8192)              = 0
+pread64(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0\267\0\1\0\0\0\240\f\0\0\0\0\0\0"..., 64, 0) = 64
+mmap(NULL, 4096, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7eedf000
+mmap(NULL, 77824, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e86c000
+mmap(0x7f7e86c000, 6520, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED, 3, 0) = 0x7f7e86c000
+mmap(0x7f7e87d000, 4104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED, 3, 0x1000) = 0x7f7e87d000
+munmap(0x7f7eedf000, 4096)              = 0
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0x7f7eedf000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7eedf000, 4096, "linker_alloc_128") = 0
+mprotect(0x7f7e87d000, 4096, PROT_READ) = 0
+munmap(0x7f7eedf000, 4096)              = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+brk(NULL)                               = 0x7fa224b000
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e82c000
+madvise(0x7f7e82c000, 262144, MADV_MERGEABLE) = -1 EINVAL (Invalid argument)
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7e82c000, 262144, "libc_malloc") = 0
+munmap(0x7f7e82c000, 262144)            = 0
+mmap(NULL, 520192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e7ed000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7e7ed000, 520192, "libc_malloc") = 0
+munmap(0x7f7e7ed000, 77824)             = 0
+munmap(0x7f7e840000, 180224)            = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7eedf000
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+openat(AT_FDCWD, "/proc/stat", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e7c0000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7e7c0000, 262144, "libc_malloc") = 0
+mmap(NULL, 786432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e700000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7e700000, 786432, "libc_malloc") = 0
+mmap(NULL, 786432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e640000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7e640000, 786432, "libc_malloc") = 0
+read(3, "cpu  1337119 60383 669650 518911"..., 1024) = 1024
+read(3, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 1024) = 360
+read(3, "", 1024)                       = 0
+close(3)                                = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7e98f4e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7eac9938, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+futex(0x7f7eac97f8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34288, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+openat(AT_FDCWD, "/dev/null", O_WRONLY|O_CREAT|O_TRUNC, 0666) = 3
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eede000, 4096, PROT_READ) = 0
+mprotect(0x7f7eeeb000, 4096, PROT_READ) = 0
+mprotect(0x7f7eee5000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+futex(0x7f7eac9934, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e600000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7e600000, 262144, "libc_malloc") = 0
+openat(AT_FDCWD, "/data//misc/zoneinfo/current/tzdata", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/system//usr/share/zoneinfo/tzdata", O_RDONLY) = 4
+read(4, "tzdata2015f\0\0\0\0\30\0\0vP\0\0076\240", 24) = 24
+lseek(4, 24, SEEK_SET)                  = 24
+read(4, "Africa/Abidjan\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 30264) = 30264
+lseek(4, 268791, SEEK_SET)              = 268791
+read(4, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\6\0\0\0\6\0\0\0\0"..., 41464) = 41464
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/apt.conf.d/", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/apt.conf.d/", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/apt.conf.d/", O_RDONLY|O_DIRECTORY|O_CLOEXEC) = 4
+getdents64(4, /* 2 entries */, 4200)    = 48
+getdents64(4, /* 0 entries */, 4200)    = 0
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/apt.conf", 0x7ff7095150, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/dpkg/status", {st_mode=S_IFREG|0644, st_size=45178, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/bin/dpkg", {st_mode=S_IFREG|0700, st_size=265368, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/etc/debian_version", 0x7ff7095150, 0) = -1 ENOENT (No such file or directory)
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTART}, {sa_handler=0x7f7ee8da30, sa_mask=[], sa_flags=SA_ONSTACK|SA_RESTART|SA_SIGINFO}, 8) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+rt_sigaction(SIGWINCH, {sa_handler=0x7f7ee222b0, sa_mask=[], sa_flags=SA_RESTART}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+ioctl(1, TIOCGWINSZ, {ws_row=23, ws_col=93, ws_xpixel=0, ws_ypixel=0}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/sources.list", {st_mode=S_IFREG|0600, st_size=84, ...}, 0) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/sources.list", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0600, st_size=84, ...}) = 0
+read(4, "# The main termux repository:\nde"..., 4096) = 84
+read(4, "", 4096)                       = 0
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e5c0000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7e5c0000, 262144, "libc_malloc") = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+pipe2([5, 6], 0)                        = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7eed02d0) = 24068
+close(6)                                = 0
+fcntl(5, F_GETFL)                       = 0 (flags O_RDONLY)
+fstat(5, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+read(5, "", 4096)                       = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=24068, si_uid=10189, si_status=SIGSEGV, si_utime=3, si_stime=18} ---
+close(5)                                = 0
+wait4(24068, [{WIFSIGNALED(s) && WTERMSIG(s) == SIGSEGV}], 0, NULL) = 24068
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/", O_RDONLY|O_DIRECTORY|O_CLOEXEC) = 5
+getdents64(5, /* 7 entries */, 4200)    = 304
+getdents64(5, /* 0 entries */, 4200)    = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_InRelease", {st_mode=S_IFREG|0644, st_size=1687, ...}, 0) = 0
+futex(0x7f7ede81a0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/tmp", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+geteuid()                               = 10189
+faccessat(AT_FDCWD, "/data/data/com.termux/files/usr/tmp", R_OK|W_OK|X_OK) = 0
+openat(AT_FDCWD, "/dev/urandom", O_RDONLY|O_NOFOLLOW|O_CLOEXEC) = 5
+fstat(5, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+ioctl(5, RNDGETENTCNT, 0x7ff7093f9c)    = 0
+read(5, "j\0H\261\267>\322\315%\317*\256;N]7a\7q\264\214\n\t\343e\273\231\304\242b4\306"..., 40) = 40
+close(5)                                = 0
+mmap(NULL, 16, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7eedc000
+mmap(NULL, 1088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7eedb000
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/tmp/fileutl.message.oDQEgv", O_RDWR|O_CREAT|O_EXCL, 0600) = 5
+unlinkat(AT_FDCWD, "/data/data/com.termux/files/usr/tmp/fileutl.message.oDQEgv", 0) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+newfstatat(AT_FDCWD, "/usr/bin/xz", 0x7ff7093f50, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/bin/lz4", 0x7ff7093f50, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/bin/gzip", 0x7ff7093f50, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/bin/xz", 0x7ff7093f50, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/bin/bzip2", 0x7ff7093f50, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/usr/bin/lzma", 0x7ff7093f50, 0) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_InRelease", O_RDONLY) = 6
+fstat(6, {st_mode=S_IFREG|0644, st_size=1687, ...}) = 0
+read(6, "-----BEGIN PGP SIGNED MESSAGE---"..., 4096) = 1687
+read(6, "", 4096)                       = 0
+close(6)                                = 0
+write(5, "Codename: stable\nVersion: 1\nArch"..., 1182) = 1182
+lseek(5, 0, SEEK_SET)                   = 0
+fstat(5, {st_mode=S_IFREG|0600, st_size=1182, ...}) = 0
+read(5, "Codename: stable\nVersion: 1\nArch"..., 1185) = 1182
+read(5, "", 3)                          = 0
+openat(AT_FDCWD, "/data//misc/zoneinfo/current/tzdata", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/system//usr/share/zoneinfo/tzdata", O_RDONLY) = 6
+read(6, "tzdata2015f\0\0\0\0\30\0\0vP\0\0076\240", 24) = 24
+lseek(6, 24, SEEK_SET)                  = 24
+read(6, "Africa/Abidjan\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 30264) = 30264
+lseek(6, 347403, SEEK_SET)              = 347403
+read(6, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0\0"..., 41464) = 41464
+close(6)                                = 0
+close(5)                                = 0
+lseek(4, 0, SEEK_CUR)                   = 84
+lseek(4, 0, SEEK_SET)                   = 0
+read(4, "# The main termux repository:\nde"..., 4096) = 84
+close(4)                                = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/sources.list.d/", 0x7ff7094ef0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/sources.list", {st_mode=S_IFREG|0600, st_size=84, ...}, 0) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/dpkg/lock", O_RDWR|O_CREAT|O_NOFOLLOW, 0640) = 4
+fcntl(4, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(4, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/dpkg/updates/", O_RDONLY|O_DIRECTORY|O_CLOEXEC) = 5
+getdents64(5, /* 2 entries */, 4200)    = 48
+getdents64(5, /* 0 entries */, 4200)    = 0
+close(5)                                = 0
+newfstatat(AT_FDCWD, "/data", {st_mode=S_IFDIR|0771, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data", {st_mode=S_IFDIR|0771, st_size=8192, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux", {st_mode=S_IFDIR|0751, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files", {st_mode=S_IFDIR|0700, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr", {st_mode=S_IFDIR|0700, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var", {st_mode=S_IFDIR|0700, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib", {st_mode=S_IFDIR|0700, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/dpkg", {st_mode=S_IFDIR|0700, st_size=4096, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/dpkg/status", {st_mode=S_IFREG|0644, st_size=45178, ...}, AT_SYMLINK_NOFOLLOW) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+fstat(1, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 20), ...}) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+write(1, "\rReading package lists... 0%\r", 29) = 29
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/pkgcache.bin", O_RDONLY) = 5
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/sources.list.d/", 0x7ff70949e0, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/sources.list", {st_mode=S_IFREG|0600, st_size=84, ...}, 0) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=712653, ...}) = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=712653, ...}) = 0
+mmap(NULL, 712653, PROT_READ|PROT_WRITE, MAP_PRIVATE, 5, 0) = 0x7f7e512000
+pipe2([6, 7], 0)                        = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7eed02d0) = 24070
+close(7)                                = 0
+fcntl(6, F_GETFL)                       = 0 (flags O_RDONLY)
+fstat(6, {st_mode=S_IFIFO|0600, st_size=0, ...}) = 0
+read(6, 0x7f7e7da000, 4096)             = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_STOPPED, si_pid=24070, si_uid=10189, si_status=SIGSTOP, si_utime=2, si_stime=19} ---
+read(6, "", 4096)                       = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=24070, si_uid=10189, si_status=SIGSEGV, si_utime=2, si_stime=20} ---
+close(6)                                = 0
+wait4(24070, [{WIFSIGNALED(s) && WTERMSIG(s) == SIGSEGV}], 0, NULL) = 24070
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_InRelease", {st_mode=S_IFREG|0644, st_size=1687, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_InRelease", {st_mode=S_IFREG|0644, st_size=1687, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_Release.gpg", 0x7ff7094990, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_InRelease", {st_mode=S_IFREG|0644, st_size=1687, ...}, 0) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+futex(0x7f7ec34318, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/dpkg/status", {st_mode=S_IFREG|0644, st_size=45178, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-aarch64_Packages", {st_mode=S_IFREG|0644, st_size=279034, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-aarch64_Packages", {st_mode=S_IFREG|0644, st_size=279034, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-aarch64_Packages", {st_mode=S_IFREG|0644, st_size=279034, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-aarch64_Packages", {st_mode=S_IFREG|0644, st_size=279034, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-all_Packages", {st_mode=S_IFREG|0644, st_size=15010, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-all_Packages", {st_mode=S_IFREG|0644, st_size=15010, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-all_Packages", {st_mode=S_IFREG|0644, st_size=15010, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-all_Packages", {st_mode=S_IFREG|0644, st_size=15010, ...}, 0) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=775991}, NULL) = 0
+write(1, "\rReading package lists... 100%\r", 31) = 31
+close(5)                                = 0
+write(1, "\rReading package lists... Done\r", 31) = 31
+write(1, "\n", 1)                       = 1
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/preferences", 0x7ff7094750, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/preferences.d/", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/preferences.d/", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/etc/apt/preferences.d/", O_RDONLY|O_DIRECTORY|O_CLOEXEC) = 5
+getdents64(5, /* 2 entries */, 4200)    = 48
+getdents64(5, /* 0 entries */, 4200)    = 0
+close(5)                                = 0
+write(1, "\rBuilding dependency tree... 0%\r", 32) = 32
+write(1, "\rBuilding dependency tree... 0%\r", 32) = 32
+gettimeofday({tv_sec=1518162150, tv_usec=780716}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=780966}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=781172}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=781370}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=781544}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=781747}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=781964}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=782167}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=782355}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=782554}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=782764}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=783219}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=783501}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=783715}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=783919}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=784107}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=784292}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=784488}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=784675}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=784875}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=785075}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=785273}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=785465}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=785657}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=785949}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=786202}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=786427}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=786653}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=786867}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=788983}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=789316}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=789626}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=789992}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=790327}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=790596}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=790864}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=791176}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=791472}, NULL) = 0
+write(1, "\rBuilding dependency tree... 50%"..., 33) = 33
+write(1, "\rBuilding dependency tree... 50%"..., 33) = 33
+gettimeofday({tv_sec=1518162150, tv_usec=794482}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=794950}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=795381}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=795828}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=796276}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=796751}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=797191}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=797595}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=798010}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=798365}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=798750}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=799067}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=799484}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=799872}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=800662}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=801239}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=801767}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=803174}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=803741}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=804219}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=804655}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=805132}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=805559}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=805919}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=806293}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=806621}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=806950}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=807290}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=807620}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=807963}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=808241}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=808482}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=808710}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=809011}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=809376}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=809739}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=810195}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=810595}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=810930}, NULL) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/extended_states", {st_mode=S_IFREG|0644, st_size=2273, ...}, 0) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/extended_states", O_RDONLY) = 5
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fstat(5, {st_mode=S_IFREG|0644, st_size=2273, ...}) = 0
+write(1, "\rBuilding dependency tree       "..., 33) = 33
+write(1, "\n", 1)                       = 1
+write(1, "\rReading state information... 0%"..., 33) = 33
+read(5, "Package: libunistring\nArchitectu"..., 32771) = 2273
+read(5, "", 30498)                      = 0
+write(1, "\rReading state information... 2%"..., 33) = 33
+gettimeofday({tv_sec=1518162150, tv_usec=818816}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=819251}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=819813}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=820142}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=820381}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=820557}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=820716}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=820857}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=821007}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=821402}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=821725}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=821879}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=822013}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=822143}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=822290}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=822435}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=822567}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=822743}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=823064}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=823341}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=823602}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=823805}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=824231}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=824494}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=824717}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=825339}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=825931}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=826293}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=826500}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=826657}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=826802}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=826943}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=827083}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=827225}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=827424}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=827574}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=827719}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=827858}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=827991}, NULL) = 0
+close(5)                                = 0
+write(1, "\rReading state information... Do"..., 35) = 35
+write(1, "\n", 1)                       = 1
+mmap(NULL, 262144, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e4d2000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7e4d2000, 262144, "libc_malloc") = 0
+munmap(0x7f7e4d2000, 262144)            = 0
+mmap(NULL, 520192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7e493000
+prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0x7f7e493000, 520192, "libc_malloc") = 0
+munmap(0x7f7e493000, 184320)            = 0
+munmap(0x7f7e500000, 73728)             = 0
+getuid()                                = 10189
+gettimeofday({tv_sec=1518162150, tv_usec=860579}, NULL) = 0
+gettimeofday({tv_sec=1518162150, tv_usec=860761}, NULL) = 0
+umask(022)                              = 077
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/archives/partial", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+umask(077)                              = 022
+getuid()                                = 10189
+fchmodat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/archives/partial", 0700) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/archives/partial", {st_mode=S_IFDIR|0700, st_size=4096, ...}, 0) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/archives/partial", O_RDONLY|O_DIRECTORY|O_CLOEXEC) = 5
+getdents64(5, /* 2 entries */, 4200)    = 48
+getdents64(5, /* 0 entries */, 4200)    = 0
+close(5)                                = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/archives/lock", O_RDWR|O_CREAT|O_NOFOLLOW, 0640) = 5
+fcntl(5, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(5, F_SETLK, {l_type=F_WRLCK, l_whence=SEEK_SET, l_start=0, l_len=0}) = 0
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/dpkg/status", O_RDONLY) = 6
+fcntl(6, F_SETFD, FD_CLOEXEC)           = 0
+read(6, "Package: binutils-dev\nStatus: in"..., 855) = 855
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-aarch64_Packages", O_RDONLY) = 7
+fcntl(7, F_SETFD, FD_CLOEXEC)           = 0
+read(7, "Package: aapt\nArchitecture: aarc"..., 855) = 855
+openat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-all_Packages", O_RDONLY) = 8
+fcntl(8, F_SETFD, FD_CLOEXEC)           = 0
+read(8, "Package: ack-grep\nArchitecture: "..., 855) = 855
+lseek(7, 277901, SEEK_SET)              = 277901
+read(7, "Package: zsh\nArchitecture: aarch"..., 855) = 855
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-all_Packages", {st_mode=S_IFREG|0644, st_size=15010, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-all_Packages", {st_mode=S_IFREG|0644, st_size=15010, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-aarch64_Packages", {st_mode=S_IFREG|0644, st_size=279034, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-aarch64_Packages", {st_mode=S_IFREG|0644, st_size=279034, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-all_Packages", {st_mode=S_IFREG|0644, st_size=15010, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-all_Packages", {st_mode=S_IFREG|0644, st_size=15010, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-aarch64_Packages", {st_mode=S_IFREG|0644, st_size=279034, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/lib/apt/lists/termux.net_dists_stable_main_binary-aarch64_Packages", {st_mode=S_IFREG|0644, st_size=279034, ...}, 0) = 0
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/archives/zsh_5.4.2-2_aarch64.deb", 0x7ff7094890, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/archives/zsh_5.4.2-2_aarch64.deb", 0x7ff7094890, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/var/cache/apt/archives/partial/zsh_5.4.2-2_aarch64.deb", 0x7ff7094890, 0) = -1 ENOENT (No such file or directory)
+newfstatat(AT_FDCWD, "/data/data/com.termux/files/usr/lib/apt/methods/https", {st_mode=S_IFREG|0700, st_size=134184, ...}, 0) = 0
+pipe2([9, 10], 0)                       = 0
+pipe2([11, 12], 0)                      = 0
+fcntl(9, F_SETFD, FD_CLOEXEC)           = 0
+fcntl(10, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(11, F_SETFD, FD_CLOEXEC)          = 0
+fcntl(12, F_SETFD, FD_CLOEXEC)          = 0
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f7eed02d0) = 24074
+fcntl(9, F_GETFL)                       = 0 (flags O_RDONLY)
+fcntl(9, F_SETFL, O_RDONLY|O_NONBLOCK)  = 0
+fcntl(12, F_GETFL)                      = 0x1 (flags O_WRONLY)
+fcntl(12, F_SETFL, O_WRONLY|O_NONBLOCK) = 0
+close(10)                               = 0
+close(11)                               = 0
+pselect6(10, [9], NULL, NULL, NULL, NULL) = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_STOPPED, si_pid=24074, si_uid=10189, si_status=SIGSTOP, si_utime=3, si_stime=19} ---
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_CONTINUED, si_pid=24074, si_uid=10189, si_status=SIGCONT, si_utime=3, si_stime=19} ---
+pselect6(10, [9], NULL, NULL, NULL, NULL) = 1 (in [9])
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=24074, si_uid=10189, si_status=SIGSEGV, si_utime=3, si_stime=19} ---
+read(9, "", 64000)                      = 0
+wait4(24074, [{WIFSIGNALED(s) && WTERMSIG(s) == SIGSEGV}], 0, NULL) = 24074
+close(9)                                = 0
+close(12)                               = 0
+close(-1)                               = -1 EBADF (Bad file descriptor)
+close(-1)                               = -1 EBADF (Bad file descriptor)
+close(8)                                = 0
+close(7)                                = 0
+close(6)                                = 0
+close(5)                                = 0
+msync(0x7f7e512000, 712653, MS_SYNC)    = 0
+munmap(0x7f7e512000, 712653)            = 0
+close(4)                                = 0
+write(2, "E", 1)                        = 1
+futex(0x7f7ec342ec, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+write(2, ": ", 2)                       = 2
+write(2, "Method https has died unexpected"..., 35) = 35
+write(2, "\n", 1)                       = 1
+write(2, "E", 1)                        = 1
+write(2, ": ", 2)                       = 2
+write(2, "Sub-process https received a seg"..., 48) = 48
+write(2, "\n", 1)                       = 1
+write(2, "E", 1)                        = 1
+write(2, ": ", 2)                       = 2
+write(2, "Method /data/data/com.termux/fil"..., 84) = 84
+write(2, "\n", 1)                       = 1
+futex(0x7f7ead1afc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+close(0)                                = 0
+close(1)                                = 0
+close(2)                                = 0
+futex(0x7f7eac6780, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+close(3)                                = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ|PROT_WRITE) = 0
+mprotect(0x7f7eedf000, 4096, PROT_READ) = 0
+munmap(0x7f7eedf000, 4096)              = 0
+exit_group(100)                         = ?
++++ exited with 100 +++
